@@ -1,0 +1,175 @@
+/*css accueil */
+body{
+    margin: -15pxpx;
+    padding: 35px;
+    overflow-x: hidden;
+    background-color:#D3D3D3;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+header  {
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: -35px;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    
+}
+header nav ul{
+    justify-content: space-around;
+    display: flex;
+    margin-inline-start: 85px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    width: 650px;
+}
+header nav ul li{
+    list-style-type: none;
+   
+}
+header nav ul li a{
+    color: #2e3740;
+    text-decoration: none;
+
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    color:white;
+
+}
+.text{
+  
+    font-size: 20px;
+    color:#FFFFFF;
+    border:solid;
+    background-color: #2e3740;
+    width: 1100px;
+    height: 400px;
+    padding: 45px;
+    margin-left: 50px;
+    border: none;
+}
+.container img{
+    width: 650px;
+    height: 500px;
+    transform: translate(800px,-550px);
+}
+
+.contact{
+    margin-top: -700px;
+    margin-left: 95px;
+    color: #BADDFF;
+}
+.contact a{
+    text-decoration: none;
+    color: #BADDFF;
+}
+.icones{
+    margin-top: 90px;
+    display:flex;
+    font-size: 27px;
+    margin-left: 50px;
+    color: #2e3740 ;
+}
+
+/* style;css du plan*/
+body{
+    margin:30px;
+    padding:30px;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.design{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.paragraphe{
+    font-size: 25px;
+}
+#titre{
+    font-size: 50px;
+    text-align: center;
+}
+.design img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255,0.684);
+    transition: all ease-in-out 0.7s;
+}
+.design img:hover{
+    width: 25%;
+}
+.securité p{
+   
+}
+
+/* style.css gallerie*/
+body{
+    overflow-x: hidden;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titre{
+    font-size: 45px;
+    text-align: center;
+}
+.sous-titre{
+    margin-left:10px ;
+    font-size: 25px;
+}
+.container{
+    display: grid;
+    gap: 30px;
+   
+}
+.salon{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.salon img{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+}
+.douche{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.douche img{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+}
+.cuisine{
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px; 
+}
+.cuisine img{
+    width:370px ; 
+    height:250px;
+    border-radius: 20px;
+}
+.salle-à-manger{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.salle-à-manger img{
+    width:370px ; 
+    height:250px;
+    border-radius: 20px;
+}
+.chambre{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.chambre img{
+    width:370px ; 
+    height:250px;
+    border-radius: 20px;
+}
