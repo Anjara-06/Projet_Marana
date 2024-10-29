@@ -1,77 +1,75 @@
 /*css accueil */
 body{
-    margin: -15pxpx;
-    padding: 35px;
+    margin:30px;
+    padding:30px;
     overflow-x: hidden;
-    background-color:#D3D3D3;
     font-family: Arial, Helvetica, sans-serif;
-  
 }
-header  {
-    font-size: 25px;
-    text-decoration: none;
-    margin-top: -35px;
-}
-header img{
-    width: 150px;
-    height: 150px;
-    
-}
-header nav ul{
-    justify-content: space-around;
+.design{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
     display: flex;
-    margin-inline-start: 85px;
-    margin-top: -100px;
-    margin-bottom: 100px;
-    width: 650px;
+    justify-content: center;
+    gap: 10px;
 }
-header nav ul li{
-    list-style-type: none;
-   
+
+.paragraphe{
+    font-size: 25px;
 }
-header nav ul li a{
-    color: #2e3740;
-    text-decoration: none;
+.titre{
+    font-size: 50px;
+    text-align: center;
+}
+.design img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255,0.684);
+    transition: all ease-in-out 0.7s;
+}
+.design img:hover{
+    width: 25%;
+}
+.sous-titre{
+    margin-top: 45px;
+    font-size: 35px;
 
 }
-header nav ul li a:hover{
-    cursor: pointer;
-    color:white;
-
+.paragraphe2{
+    font-size: 25px;
 }
-.text{
-  
-    font-size: 20px;
-    color:#FFFFFF;
-    border:solid;
-    background-color: #2e3740;
-    width: 1100px;
+.plan{
+    font-size: 25px;
+}
+.salon h3{
+    font-size:25px ;
+}
+.salon img{
+    width: 500px;
     height: 400px;
-    padding: 45px;
-    margin-left: 50px;
-    border: none;
 }
-.container img{
-    width: 650px;
-    height: 500px;
-    transform: translate(800px,-550px);
+.salon p{
+    font-size: 25px;
+    border: solid;
+    border-color: transparent;
+    margin-left: 700px;
+    margin-top: -300px;
+    margin-bottom: 300px;
 }
-
-.contact{
-    margin-top: -700px;
-    margin-left: 95px;
-    color: #BADDFF;
+.cuisine h3{
+    font-size:25px ;
 }
-.contact a{
-    text-decoration: none;
-    color: #BADDFF;
+.cuisine img{
+    width: 500px;
+    height: 400px;
+    transform: translate(50px ,100px);
 }
-.icones{
-    margin-top: 90px;
-    display:flex;
-    font-size: 27px;
-    margin-left: 50px;
-    color: #2e3740 ;
+.cuisine P{
+    font-size: 25px;
+    float: right;
+    border:solid;
 }
 
 /* style;css du plan*/
@@ -109,6 +107,7 @@ body{
     width: 25%;
 }
 .securité p{
+    
    
 }
 
