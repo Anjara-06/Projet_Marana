@@ -1,77 +1,83 @@
 /*css accueil */
 body{
-    margin:30px;
-    padding:30px;
+    margin: -15pxpx;
+    padding: 35px;
     overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color :#eeedf0;
+    font-style: italic;
+  
 }
-.design{
-    margin: 100px 0 0 200px;
-    width: 70%;
-    height: 450px;
+header  {
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: -35px;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    
+}
+header nav ul{
+    justify-content: space-around;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    margin-inline-start: 250px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    width: 750px;
 }
-
-.paragraphe{
-    font-size: 25px;
+header nav ul li{
+    list-style-type: none;
+   
 }
-.titre{
-    font-size: 50px;
-    text-align: center;
-}
-.design img{
-    width: 10%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255,0.684);
-    transition: all ease-in-out 0.7s;
-}
-.design img:hover{
-    width: 25%;
-}
-.sous-titre{
-    margin-top: 45px;
-    font-size: 35px;
+header nav ul li a{
+    color:#4a5969;
+    text-decoration: none;
 
 }
-.paragraphe2{
-    font-size: 25px;
+header nav ul li a:hover{
+    cursor: pointer;
+    
+
 }
-.plan{
-    font-size: 25px;
-}
-.salon h3{
-    font-size:25px ;
-}
-.salon img{
-    width: 500px;
+.text{
+    font-size: 40px;
+    color:#4a5969;
+    width: 1100px;
     height: 400px;
+    padding: 45px;
+    margin-left: 50px;
+    border: none;
 }
-.salon p{
-    font-size: 25px;
-    border: solid;
-    border-color: transparent;
-    margin-left: 700px;
-    margin-top: -300px;
-    margin-bottom: 300px;
-}
-.cuisine h3{
-    font-size:25px ;
-}
-.cuisine img{
+hr{
     width: 500px;
-    height: 400px;
-    transform: translate(50px ,100px);
+    margin-left:0px ;
 }
-.cuisine P{
-    font-size: 25px;
-    float: right;
-    border:solid;
+.container img{
+    width: 650px;
+    height: 500px;
+    transform: translate(750px,-450px);
+    border-radius: 32px;
 }
 
+.contact{
+    font-size: 25px;
+    margin-top: -700px;
+    margin-left: 95px;
+    color: black;
+}
+.contact a{
+    text-decoration: none;
+}
+.icones{
+    margin-top: 80px;
+    display:flex;
+    font-size: 27px;
+    margin-left: 95px;
+   
+}
+.icones i{
+    color: #333333;
+}
 /* style;css du plan*/
 body{
     margin:30px;
