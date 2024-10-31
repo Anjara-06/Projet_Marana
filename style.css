@@ -5,7 +5,6 @@ body{
     overflow-x: hidden;
     background-color :#eeedf0;
     font-style: italic;
-  
 }
 header  {
     font-size: 40px;
@@ -68,6 +67,97 @@ hr{
 .contact a{
     text-decoration: none;
 }
+.div{
+    margin-top: 100px;
+}
+.div img{
+    width: 1490px;
+    height: 750px;
+}
+
+.boite{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    margin-top: 25px;
+    background-color: #e4e8e2;
+    height: 750px;
+}
+.titre p{
+    font-size: 35px;
+    font-family: "Pinyon Script", cursive;
+    margin-left: 25px;
+    color: #393939;
+}
+.titre h2{
+    font-size: 60px;
+    margin-left: 25px;
+    color: #393939;
+
+}
+hr{
+    margin-left: 25px;
+    font-size: 35px;
+    height: 5px; 
+    background-color: black; 
+    border: none; 
+}
+.rideau{
+    transform: translate(570px , -270px);
+    width: 290px;
+}
+.chaise{
+    transform: translate(-60px ,110px);
+    width: 290px;
+    height: 300px;
+}
+.palme{
+    transform: translate(-14px ,110px);
+    width: 290px;
+    height: 300px;
+}
+.rose{
+    transform: translate(-70px ,-100px);
+    width: 290px;
+    height: 300px;
+}
+.armoire{
+    transform: translate(-50px ,-290px);
+    width: 290px;
+    
+}
+.fleure{
+    transform: translate(1120px , -290px);
+    height: 300px;
+}
+.empty-box {
+    display: flex;       
+    flex-wrap: wrap; 
+    margin-top: -273px;
+    justify-content: space-around;
+    margin-inline-start: 1100px;
+    margin-right: 41px;
+}
+.box1{
+    width: 70px;        
+    height: 70px;         
+    border: 2px solid black; 
+    background-color: #c7c6c3; 
+}
+.box2{
+    width: 70px;        
+    height: 70px;         
+    border: 2px solid black; 
+    background-color: #777f77; 
+}
+.box3{
+    width: 70px;        
+    height: 70px;         
+    border: 2px solid black; 
+    background-color: #7a7060; 
+}
+
+
 .icones{
     margin-top: 80px;
     display:flex;
@@ -82,7 +172,7 @@ hr{
 body{
     margin:30px;
     padding:30px;
-    overflow-x: hidden;
+  
     font-family: Arial, Helvetica, sans-serif;
 }
 .design{
@@ -97,7 +187,7 @@ body{
 .paragraphe{
     font-size: 25px;
 }
-#titre{
+.titre{
     font-size: 50px;
     text-align: center;
 }
@@ -112,8 +202,82 @@ body{
 .design img:hover{
     width: 25%;
 }
-.securité p{
-    
+.sous-titre{
+    margin-top: 45px;
+    font-size: 35px;
+
+}
+.paragraphe2{
+    font-size: 25px;
+}
+.plan{
+    font-size: 25px;
+}
+.contenaire{
+    border:solid;
+    height: 2470px;
+    background-color:rgb(205, 234, 253);
+}
+.salon h3{
+    font-size:25px ;
+}
+.salon img{
+    width: 500px;
+    height: 400px;
+    margin-left: 90px;
+}
+.salon p{
+    font-size: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 700px;
+    margin-top: -300px;
+    margin-bottom: 300px;
+}
+
+.cuisine h3{
+    font-size:25px ;
+}
+.cuisine img{
+    width: 500px;
+    height: 400px;
+    transform: translate(900px ,-250px);
+}
+.cuisine P{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-top:100px;
+}
+.chambre h3{
+    font-size:25px ;
+}
+.chambre img{
+    width: 500px;
+    height: 400px;
+}
+.chambre p{
+    font-size: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 700px;
+    margin-top: -300px;
+    margin-bottom: 300px;
+}
+.salle-de-bain h3{
+    font-size:25px ;
+}
+.salle-de-bain img{
+    width: 500px;
+    height: 400px;
+    transform: translate(900px ,10px);
+}
+.salle-de-bain p{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -300px;
    
 }
 
