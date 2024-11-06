@@ -1,0 +1,157 @@
+body{
+    overflow-x: hidden;
+    background-color :#eeedf0;
+    font-style: italic;
+    padding: 50px;
+    margin: -15px;
+}
+header  {
+    border: solid;
+    width: 1500px;
+    height: 94px;
+    border-color: transparent;
+    background-color:#eeedf0 ;
+    text-decoration: none;
+    transform: translateY(-35px);
+    position: fixed;
+    z-index: 1000; 
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+header nav ul{
+    justify-content: space-around;
+    display: flex;
+    margin-inline-start: 250px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    width: 750px;
+}
+header nav ul li{
+    list-style-type: none;
+    margin-top: 24px;
+}
+header nav ul li a{
+    color:#4a5969;
+    text-decoration: none;
+    font-size: 35px;
+   
+
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    border: solid;
+    background-color: #4a5969;
+    border-color: transparent;
+    border-width: 30px;
+    transition:0.5s;
+}
+
+.design{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.paragraphe{
+    font-size: 25px;
+}
+.titre{
+    font-size: 50px;
+    text-align: center;
+}
+.design img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255,0.684);
+    transition: all ease-in-out 0.7s;
+}
+.design img:hover{
+    width: 25%;
+}
+.sous-titre{
+    margin-top: 45px;
+    font-size: 35px;
+
+}
+.paragraphe2{
+    font-size: 25px;
+}
+.plan{
+    font-size: 25px;
+}
+.contenaire{
+    border:solid;
+    height: 2470px;
+    background-color:rgb(205, 234, 253);
+}
+.salon h3{
+    font-size:25px ;
+}
+.salon img{
+    width: 500px;
+    height: 400px;
+    margin-left: 90px;
+}
+.salon p{
+    font-size: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 700px;
+    margin-top: -300px;
+    margin-bottom: 300px;
+}
+
+.cuisine h3{
+    font-size:25px ;
+}
+.cuisine img{
+    width: 500px;
+    height: 400px;
+    transform: translate(900px ,-250px);
+}
+.cuisine P{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-top:100px;
+}
+.chambre h3{
+    font-size:25px ;
+}
+.chambre img{
+    width: 500px;
+    height: 400px;
+}
+.chambre p{
+    font-size: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 700px;
+    margin-top: -300px;
+    margin-bottom: 300px;
+}
+.salle-de-bain h3{
+    font-size:25px ;
+}
+.salle-de-bain img{
+    width: 500px;
+    height: 400px;
+    transform: translate(900px ,10px);
+}
+.salle-de-bain p{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -300px;
+   
+}

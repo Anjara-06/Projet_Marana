@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+    padding: 50px;
+    margin: -15px;
+    background-color :#eeedf0;
+    font-style: italic;
+   
+}
+header  {
+    border: solid;
+    width: 1500px;
+    height: 94px;
+    border-color: transparent;
+    background-color:#eeedf0 ;
+    text-decoration: none;
+    transform: translateY(-35px);
+    position: fixed;
+    z-index: 1000; 
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+header nav ul{
+    justify-content: space-around;
+    display: flex;
+    margin-inline-start: 250px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    width: 750px;
+}
+header nav ul li{
+    list-style-type: none;
+    margin-top: 24px;
+   
+}
+header nav ul li a{
+    color:#4a5969;
+    text-decoration: none;
+    font-size: 35px;
+   
+
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    border: solid;
+    background-color: #4a5969;
+    border-color: transparent;
+    border-width: 30px;
+    transition:0.5s;
+}

@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+    margin: -15px;
+    background-color :#eeedf0;
+    padding: 50px;
+    font-style: italic;
+}
+header  {
+    border: solid;
+    width: 1500px;
+    height: 94px;
+    border-color: transparent;
+    background-color:#eeedf0 ;
+    text-decoration: none;
+    transform: translateY(-35px);
+    position: fixed;
+    z-index: 1000; 
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+header nav ul{
+    justify-content: space-around;
+    display: flex;
+    margin-inline-start: 250px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    width: 750px;
+}
+header nav ul li{
+    list-style-type: none;
+    margin-top: 24px;
+   
+}
+header nav ul li a{
+    color:#4a5969;
+    text-decoration: none;
+    font-size: 35px;
+   
+
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    border: solid;
+    background-color: #4a5969;
+    border-color: transparent;
+    border-width: 30px;
+    transition:0.5s;
+}
+
+.titre{
+    font-size: 45px;
+    text-align: center;
+}
+.sous-titre{
+    margin-left:10px ;
+    font-size: 25px;
+}
+.container{
+    display: grid;
+    gap: 30px;
+   
+}
+.salon{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.salon img{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+}
+.douche{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.douche img{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+}
+.cuisine{
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px; 
+}
+.cuisine img{
+    width:370px ; 
+    height:250px;
+    border-radius: 20px;
+}
+.salle-à-manger{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.salle-à-manger img{
+    width:370px ; 
+    height:250px;
+    border-radius: 20px;
+}
+.chambre{
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+}
+.chambre img{
+    width:370px ; 
+    height:250px;
+    border-radius: 20px;
+}
