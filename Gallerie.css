@@ -7,25 +7,28 @@ body{
 }
 header  {
     border: solid;
-    width: 1500px;
+    width: 1700px;
+    margin-left: -45px;
     height: 94px;
     border-color: transparent;
-    background-color:#eeedf0 ;
+    background-color:#eeedf0;
     text-decoration: none;
     transform: translateY(-35px);
     position: fixed;
     z-index: 1000; 
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    margin-left: 35px;
+    margin-top: -15px;
     
 }
 header nav ul{
     justify-content: space-around;
     display: flex;
     margin-inline-start: 250px;
-    margin-top: -100px;
+    margin-top: -107px;
     margin-bottom: 100px;
     width: 750px;
 }
@@ -38,8 +41,6 @@ header nav ul li a{
     color:#4a5969;
     text-decoration: none;
     font-size: 35px;
-   
-
 }
 header nav ul li a:hover{
     cursor: pointer;
@@ -54,6 +55,7 @@ header nav ul li a:hover{
 .titre{
     font-size: 45px;
     text-align: center;
+    margin-top: 85px;
 }
 .sous-titre{
     margin-left:10px ;
@@ -68,7 +70,7 @@ header nav ul li a:hover{
     grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
 }
 .salon img{
-    width: 370px;
+    width: 369px;
     height: 250px;
     border-radius: 20px;
 }
@@ -76,7 +78,7 @@ header nav ul li a:hover{
     grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
 }
 .douche img{
-    width: 370px;
+    width: 369px;
     height: 250px;
     border-radius: 20px;
 }
@@ -85,7 +87,7 @@ header nav ul li a:hover{
     gap: 16px; 
 }
 .cuisine img{
-    width:370px ; 
+    width: 369px;
     height:250px;
     border-radius: 20px;
 }
@@ -93,7 +95,7 @@ header nav ul li a:hover{
     grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
 }
 .salle-à-manger img{
-    width:370px ; 
+    width: 369px;
     height:250px;
     border-radius: 20px;
 }
@@ -101,7 +103,7 @@ header nav ul li a:hover{
     grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
 }
 .chambre img{
-    width:370px ; 
+    width: 369px;
     height:250px;
     border-radius: 20px;
 }

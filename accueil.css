@@ -251,6 +251,9 @@ hr{
     transform: translate(144px ,-105px);
     height: 520px;
 }
+.boite{
+
+}
 .boxnoir{
     border: solid;
     background-color: black;
@@ -262,6 +265,7 @@ hr{
 .boxnoir h3{
     font-size: 38px;
     color: #eeedf0;
+    padding: 65px;
 }
 .paragraphe{
     border: solid;
@@ -269,6 +273,9 @@ hr{
     width: 500px;
     height: 400px;
     padding: 30px;
+    font-size: 25px;
+    margin-top: -65px;
+    border: none;
 }
 .paragraphe h2{
     font-size: 35px;
@@ -288,30 +295,61 @@ hr{
     color:#393939;
     opacity:- 25px;
     margin-top: -650px;
+    margin-left: 45px;
+}
+.pre-fin img{
+    width: 1510px;
+
+}
+.pre-fin .hr1{
+    border-color:#393939;
+}
+.pre-fin .hr2{
+    border-color:#393939;;
 }
 .marana{
     font-size: 135px;
     font-family: 'Playfair Display', serif;
     color:#393939;
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-inline-start: 440px;
+    margin-bottom: 200px;
+}
+.hr1{
+    margin-inline-start: 25px;
+    position: absolute;
+    width: 400px;
+    margin-top: 90px;
+    border-color:#393939;
+}
+.hr2{
+    position: absolute;
+    width: 400px;
+    margin-top: 85px;
+    transform: translate(1000px , -370px);
+    border-color:#393939;
 }
 .contact{
     font-size: 25px;
-   
+    margin-top: 120px;
     color: black;
+    margin-left:-75px;
+
 }
 .contact a{
     text-decoration: none;
 }
 
-.icones{
-    margin-top: 80px;
+.footer{
     display:flex;
     font-size: 27px;
     margin-left: 95px;
-   
 }
-.icones i{
+.icones{
+    margin-top: 150px;
+    transform: translateX(1200px);
+}
+.icones a{
     color: #333333;
 }
 
