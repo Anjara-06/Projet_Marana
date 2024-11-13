@@ -70,7 +70,7 @@ header nav ul li a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     gap: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }
 .BAM img{
@@ -93,4 +93,8 @@ header nav ul li a:hover{
 }
 section{
     font-size: 25px;
+}
+
+.banner{
+    display: flex;
 }
