@@ -4,8 +4,9 @@ body{
     margin: -15px;
     background-color :#eeedf0;
     font-style: italic;
-   
-}
+    text-align: center;
+
+   }
 header  {
     border: solid;
     width: 1700px;
@@ -51,4 +52,49 @@ header nav ul li a:hover{
     border-color: transparent;
     border-width: 30px;
     transition:0.5s;
+}
+
+.banner ul li a:hover {
+    transform: translate(0, -10%);
+}
+.banner ul li {
+    list-style-type: none;
+    display: flex;
+}
+
+.Bio{
+    display: grid;
+   
+}
+.BAM{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+.BAM img{
+    object-fit: 100%;
+    width: 400px;
+    height: 250px;
+}
+.BAM p {
+    transform: translate(-100px , 200px)
+}
+.AFA{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 30px;
+}
+.AFA img{
+    object-fit: 100%;
+    width: 400px;
+    height: 250px;
+}
+section{
+    font-size: 25px;
+}
+
+.banner{
+    display: flex;
 }
