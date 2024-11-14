@@ -167,8 +167,6 @@ header nav ul li a:hover {
     height: 70px;
 }
 
-.projet {}
-
 .projet img {
     width: 1505px;
     height: 750px;
@@ -378,30 +376,39 @@ hr {
     margin-left: -38px;
     border-image: 32px;
 }
-.contact {
-    font-size: 25px;
-    margin-top: 120px;
-    color: black;
-    margin-left: -75px;
-}
 
-.contact a {
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     text-decoration: none;
 }
-
-.footer {
-    display: flex;
-    font-size: 27px;
-    margin-left: 95px;
+.num a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#393939;
 }
-
-.icones {
-    margin-top: 150px;
-    transform: translateX(1200px);
+.mail a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#393939;
 }
-
-.icones a {
-    color: #333333;
+.lien a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#393939;
 }
-
+.plus{
+    border: solid;
+    border-radius: 32px;
+    padding: 10px;
+    width: 100px;
+    background-color: #2e4156;
+    border-color: transparent;
+    margin-inline-start: 55px;
+    
+}
+.plus a {
+    color: #eeedf0;
+}
 
