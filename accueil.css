@@ -617,4 +617,22 @@ footer{
         transform: translate(494px, -231px);
         width: 240px;
     }
+
+    .chaise {
+        transform: translate(-60px, 110px);
+        width: 240px;
+        height: 250px;
+    }
+
+    .palme {
+        transform: translate(-14px, 110px);
+        width: 240px;
+        height: 250px;
+    }
+
+    .armoire {
+        transform: translate(950px, -290px);
+        width: 240px;
+    
+    }
 }
